@@ -1,9 +1,24 @@
-2022-08-29	15:08:91	/404	GET
-2022-08-29	15:08:95	/css/style.css	GET
-2022-08-29	15:08:28	/	GET
-2022-08-29	15:08:33	/css/style.css	GET
-2022-08-29	15:08:14	/data/json.json	GET
-2022-08-29	15:08:96	/data/json.json	GET
-2022-08-29	15:08:37	/data/json.txt	GET
-2022-08-29	15:08:78	/data/json.txtxcszacz	GET
-2022-08-29	15:08:82	/css/style.css	GET
+2022-08-30	12:08:63	GET	undefined /
+2022-08-30	12:08:68	GET	undefined /css/style.css
+2022-08-30	12:08:82	GET	undefined /favicon.ico
+2022-08-30	12:08:67	GET	undefined /
+2022-08-30	12:08:74	GET	undefined /css/style.css
+2022-08-30	12:08:86	GET	undefined /favicon.ico
+2022-08-30	12:08:79	GET	undefined /
+2022-08-30	12:08:86	GET	undefined /css/style.css
+2022-08-30	12:08:04	GET	undefined /favicon.ico
+2022-08-30	12:08:73	GET	https://www.google.co.in /
+2022-08-30	12:08:29	GET	https://www.google.co.in /
+2022-08-30	12:08:70	GET	undefined /rushi
+2022-08-30	12:08:73	GET	undefined /css/style.css
+2022-08-30	12:08:84	GET	undefined /favicon.ico
+2022-08-30	12:08:20	GET	undefined /
+2022-08-30	12:08:39	GET	undefined /favicon.ico
+2022-08-30	12:08:57	GET	undefined /
+2022-08-30	12:08:64	GET	undefined /css/style.css
+2022-08-30	12:08:78	GET	undefined /favicon.ico
+2022-08-30	12:08:34	GET	undefined /
+2022-08-30	12:08:49	GET	undefined /favicon.ico
+2022-08-30	12:08:68	GET	undefined /
+2022-08-30	12:08:72	GET	undefined /css/style.css
+2022-08-30	12:08:87	GET	undefined /favicon.ico
