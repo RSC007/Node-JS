@@ -4,7 +4,7 @@ const fsPromise = require('fs').promises
 const path = require('path')
 
 const logEvents = async (message, logName) => {
-    const logDate = `${format(new Date, 'yyyy-MM-dd\tHH:MM:SS')}` 
+    const logDate = `${format(new Date(), 'yyyy-MM-dd\tHH:MM:SS')}` 
     const logItem = `${logDate}\t${message}\n`
 
     try{
