@@ -1,9 +1,1 @@
-2022-08-30	12:08:34	Error: Not Allowed by CORS
-2022-08-30	12:08:49	Error: Not Allowed by CORS
-2022-08-30	15:08:51	TypeError: req.accepted is not a function
-2022-08-30	15:08:69	TypeError: req.accepted is not a function
-2022-08-30	15:08:79	TypeError: req.accepted is not a function
-2022-08-30	15:08:08	TypeError: req.accepted is not a function
-2022-08-30	15:08:19	TypeError: req.accepted is not a function
-2022-08-30	15:08:96	TypeError: req.accepted is not a function
-2022-08-30	15:08:08	TypeError: req.accepted is not a function
+2022-08-31	15:08:45	TypeError: bcrypt is not a function

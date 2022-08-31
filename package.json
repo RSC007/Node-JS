@@ -11,6 +11,7 @@
   "author": "\"rushi\"",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "date-fns": "^2.29.2"
   },

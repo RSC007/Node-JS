@@ -29,13 +29,11 @@ const updateEmployee = (req, res)=>{
 
 const deleteEmployee = (req, res)=>{
     const employee = data.employees.filter(({ id }) => id !== parseInt(req.body.id))
-    console.log("req", employee, req.body);
     res.json(employee)
 }
 
 const getEmployee = (req, res)=>{
     const employee = data.employees.find(( {id} )=> parseInt(req.params.id) === id)
-    console.log("employee",data.employees, employee, req.params.id, req.body);
     if(!employee){
         res.status(400).json({ "message" : `Employee Id ${req.params.id} not found` })
     }
