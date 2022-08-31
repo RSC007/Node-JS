@@ -29,6 +29,8 @@ app.use('/', express.static(path.join(__dirname, '/public')))
 // routes
 app.use('/', require('./routes/root'))
 app.use('/employees', require('./routes/api/employees'))
+app.use('/register', require('./routes/api/register'))
+app.use('/auth', require('./routes/api/auth'))
 
 // Any route that made this far, follwing response will get respectively
 app.get('*', (req, res)=>{
@@ -47,4 +49,4 @@ app.get('*', (req, res)=>{
 app.use(errorHandler)
 
 
-app.listen(PORT, () => console.log(`Server running at PORT : ${PORT}`))
+app.listen(PORT, () => console.log(`Server running at PORT : ${PORT} ...`))
