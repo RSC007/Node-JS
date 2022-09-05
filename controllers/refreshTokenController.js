@@ -21,9 +21,14 @@ const usersDB = {
         (err, decoded) => {
             if(err || decoded.username !== foundUser.username) return res.sendStatus(403) // Forbidden
                 const accessToken = jwt.sign(
-                { "username": foundUser.username },
+                { 
+                    "UserInfo": {
+                        "username": foundUser.username,
+                        "roles": foundUser.roles
+                    }
+                 },
                 process.env.ACCESS_TOKEN_SECRET,
-                { expiresIn: '30s' }
+                { expiresIn: '60s' }
             )
         res.json({ accessToken })
         }

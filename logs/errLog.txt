@@ -1,1 +1,5 @@
 2022-08-31	15:08:45	TypeError: bcrypt is not a function
+2022-09-02	17:09:96	TypeError: authHeader.startWith is not a function
+2022-09-02	17:09:85	TypeError: req.roles.map is not a function
+2022-09-02	17:09:14	TypeError: req.sendStatus is not a function
+2022-09-02	17:09:68	TypeError: uuid is not a function
