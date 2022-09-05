@@ -1,3 +1,4 @@
+const { v4 } = require('uuid')
 const data = {
     employees: require('../modal/employees.json'),
     setEmployee: function (data) { this.employees = data }
@@ -9,7 +10,7 @@ const getAllEmployees = (req, res) => {
 
 const addNewEmployee = (req, res)=> {
     const newEmployee = {
-        id: [data.employees.length - 1].id + 1 || 1,
+        id: v4(),
         firstname: req.body.firstname,
         lastname: req.body.lastname 
     }
