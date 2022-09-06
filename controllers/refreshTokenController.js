@@ -1,9 +1,6 @@
-const usersDB = {
-        users: require('../modal/users.json'),
-        setUsers: function (data) { this.users = data }
-    }
+    const User = require('../modal/User')
     const jwt = require('jsonwebtoken')
-    require('dotenv').config()
+    
     
     const handleRefreshToken = async (req, res) => {
     const cookies = req.cookies
@@ -11,10 +8,9 @@ const usersDB = {
     if(!cookies?.jwt) return res.sendStatus(401)
     
     const refreshToken = cookies?.jwt
-    const foundUser = usersDB.users.find(person => person.refreshToken === refreshToken)
+    const foundUser = await User.findOne({ refreshToken }).exec()
     if(!foundUser) return res.sendStatus(403) // Forbidden
     
-    console.log("-00-0--00-000000-0-0-0", refreshToken, foundUser);
     jwt.verify(
         refreshToken,
         process.env.REFRESH_TOKEN_SECRET,
@@ -31,8 +27,7 @@ const usersDB = {
                 { expiresIn: '60s' }
             )
         res.json({ accessToken })
-        }
-        )
+        })
     }
     
     module.exports = { handleRefreshToken }
