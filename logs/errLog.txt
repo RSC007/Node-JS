@@ -3,3 +3,14 @@
 2022-09-02	17:09:85	TypeError: req.roles.map is not a function
 2022-09-02	17:09:14	TypeError: req.sendStatus is not a function
 2022-09-02	17:09:68	TypeError: uuid is not a function
+2022-09-06	11:09:27	TypeError: Cannot read properties of undefined (reading 'UserInfo')
+2022-09-06	11:09:00	TypeError: Cannot read properties of undefined (reading 'UserInfo')
+2022-09-06	11:09:05	TypeError: Cannot read properties of undefined (reading 'UserInfo')
+2022-09-06	12:09:73	TypeError: Cannot read properties of undefined (reading 'UserInfo')
+2022-09-06	12:09:97	TypeError: Cannot read properties of undefined (reading 'UserInfo')
+2022-09-06	12:09:52	TypeError: Cannot read properties of undefined (reading 'UserInfo')
+2022-09-06	12:09:06	TypeError: Cannot read properties of undefined (reading 'UserInfo')
+2022-09-06	12:09:18	TypeError: Cannot read properties of undefined (reading 'UserInfo')
+2022-09-06	12:09:05	TypeError: Cannot read properties of undefined (reading 'UserInfo')
+2022-09-06	14:09:91	TypeError: Cannot read properties of undefined (reading 'UserInfo')
+2022-09-06	14:09:81	SyntaxError: Unexpected token b in JSON at position 15
