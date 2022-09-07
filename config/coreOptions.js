@@ -2,7 +2,8 @@ const whiteList = [
     'https://myWebsiteName.com',
     'https://www.google.co.in',
     'http://127.0.0.1: 5500',
-    'http://localhost:2500'
+    'http://localhost:2500',
+    'http://localhost:3000'
     ]
 const crosOptions = {
     origin: (origin, callback) => {
