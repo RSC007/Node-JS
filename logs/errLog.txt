@@ -14,3 +14,5 @@
 2022-09-06	12:09:05	TypeError: Cannot read properties of undefined (reading 'UserInfo')
 2022-09-06	14:09:91	TypeError: Cannot read properties of undefined (reading 'UserInfo')
 2022-09-06	14:09:81	SyntaxError: Unexpected token b in JSON at position 15
+2022-09-07	14:09:85	TypeError: Cannot read properties of undefined (reading 'startsWith')
+2022-09-07	14:09:17	TypeError: Cannot read properties of undefined (reading 'startsWith')

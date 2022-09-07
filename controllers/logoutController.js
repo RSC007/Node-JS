@@ -16,7 +16,7 @@
         foundUser.save()
 
         // maxAge is optional
-        res.clearCookie('jwt', { httpOnly: true, maxAge: 24 * 60 * 60 * 1000, sameSite: 'None' }) // secure: true - for https request
+        res.clearCookie('jwt', { httpOnly: true, maxAge: 24 * 60 * 60 * 1000, sameSite: 'None', secure: true }) // secure: true - for https request
         res.sendStatus(204)
     }
     
